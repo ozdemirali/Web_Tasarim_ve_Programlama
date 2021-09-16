@@ -1,3 +1,19 @@
+/* Reklma sitil başlangıç */
+.promo{
+    background-color: #ff0000;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.promo a{
+    color: #ffff00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* sonu */
+
 .nav{
     text-align: center;
     padding-top: 10px;
