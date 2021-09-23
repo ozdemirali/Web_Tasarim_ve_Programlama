@@ -1,0 +1,58 @@
+/* menu stili */
+.nav{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link-item{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #DCA33D;
+}
+
+.link-item:hover{
+    color: #ADDCD2;
+}
+
+/* Sonu */
+
+/* Reklam sitili */
+.banner{
+    height: 521px;
+}
+
+.banner img{
+    width: 100%;
+}
+/* Sonu */
+
+/* içerik başlangıç stili */
+
+.content {
+    padding: 10px 0;
+}
+.content img{
+    width: 25%;
+    float: left;
+    margin: 0 10px 10px 0;
+
+}
+
+.content h1{
+    margin: 0;
+    color: #0094ff;
+}
+
+.content p{
+    text-align: justify;
+}
+/* sonu */
+
+/* alt kısım stilleri */
+.footer{
+    background-color: #808080;
+    text-align: center;
+    padding: 20px 0;
+}
+/* sonu */
