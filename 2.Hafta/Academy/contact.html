@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Contact | Play Avademy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- menu kısmının başlangıçı -->
+     <div class="nav">
+        <a class="link-item" href="index.html">Home</a>
+        <a class="link-item" href="about.html">About</a>
+        <a class="link-item" href="courses.html">Courses</a>
+        <a class="link-item" href="#">Contact</a>
+    </div>
+    <!-- sonu -->
+   
+    <!-- Form başlangıç -->
+    <div class="content-form">
+       <form action="deneme.php" method="GET"> 
+           <div class="group-form">
+                <label>Adı</label>
+                <input type="text" id="fnamez" name="name" required>
+           </div>
+           
+           <div class="group-form">
+            <label>Soyadı</label>
+            <input type="text" id="surname" name="surName" required>
+           </div>
+
+           <div class="group-form">
+               <label>Cinsiyet</label>
+               <select id="gender" name="gender">
+                <option value="0">Erkek</option>
+                <option value="1">Bayan</option>
+              </select>
+           </div>
+
+           <div class="group-form">
+               <label>Mezuniyet</label>
+               <input type="radio" id="css" name="school" checked ><label class="default-display" for="css">Lise</label>
+               <input type="radio" id="css" name="school" ><label class="default-display" for="css">Üniversite</label>
+           </div>
+
+           <div class="group-form">
+                <label>Kurs Seçim</label>
+                <select id="gender" name="course">
+                <option value="1">Course-1</option>
+                <option value="2">Course-2</option>
+                <option value="3">Course-3</option>
+                <option value="4">Course-4</option>
+                <option value="5">Course-5</option>
+                <option value="6">Course-6</option>
+            </select>
+            </div>
+            <div class="group-form">
+                <label style="float: left;">Not</label>
+                <textarea name="note" rows="10" cols="30"></textarea>
+            </div>
+            <div class="group-form">
+                <input type="checkbox" name="read" required>
+                <label>Okudum</label> 
+            </div>
+
+            
+        
+          
+        <input type="submit" class="submit" value="Gönder">
+        <input type="reset" class="reset" value="Sıfırla">
+          
+
+       </form>
+    </div>
+    <!-- Sonu -->
+
+     
+    <!-- Alt kısmı -->
+    <div class="footer" >
+       <p>Copyright &#169; 2019 Play Academy</p>
+    </div>
+    <!-- son -->
+
+    
+</body>
+</html>

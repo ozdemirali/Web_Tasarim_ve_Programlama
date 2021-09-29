@@ -4,13 +4,20 @@
     <title>About Page | Play Academy</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="script/slider.js"></script>
+    <style>
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
 <body>
      <!-- menu kısmının başlangıçı -->
      <div class="nav">
         <a class="link-item" href="index.html">Home</a>
         <a class="link-item" href="about.html">About</a>
-        <a class="link-item" href="#">Courses</a>
+        <a class="link-item" href="courses.html">Courses</a>
         <a class="link-item" href="#">Contact</a>
     </div>
     <!-- sonu -->
@@ -30,7 +37,7 @@
     <!-- sonu  -->
     
     <!-- content -->
-    <div class="content content-special">
+    <div class="content content-special clearfix">
         <img src="img/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="Pc">
         <h1 style="margin: 0;">About</h1>
            <p>
@@ -47,7 +54,7 @@
            </p>
     </div>
     <!-- sonu -->
-
+   
     <!-- Alt kısım başlangıç -->
     <div class="footer" >
         <p>Copyright &#169; 2019 Play Academy</p>
