@@ -14,6 +14,17 @@ function closePromo(){
      document.getElementById("promo").style.display="none";
 }
 
+function closeAdver(){
+    //alert("Çalıştı");
+    // console.log("Kapat fonksiyonu çalıştı");
+     document.getElementById("adver").style.display="none";
+}
+
+function moveAdver(){
+    var element = document.getElementById("adver");
+    element.classList.add("adver-move");
+}
+
 function changeColor(){
     var r=Math.floor(Math.random() * 255);
     var g=Math.floor(Math.random() * 255);
@@ -22,3 +33,6 @@ function changeColor(){
     var renk="rgb("+r+","+g+","+b+")";
     document.getElementById("contentHead").style.color=renk;
 }
+
+
+
