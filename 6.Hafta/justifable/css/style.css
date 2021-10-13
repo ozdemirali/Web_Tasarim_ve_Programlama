@@ -1,0 +1,192 @@
+body{
+   background-color: #e8e8e8;
+}
+
+.link-item{
+    text-decoration: none;
+    background-color: #00a6e3;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #fff;
+}
+
+.link-item:hover{
+    color: #808080;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 45px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.triangle-color-white{
+    border-top-color: #fff;
+}
+
+.triangle-down-gray{
+    border-top-color: #f4f4f4;
+}
+/* Logo sitil bşalangıç */
+.logo{
+    padding-bottom: 20px;
+}
+.logo h1{
+    display: inline;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+.logo p{
+    margin: 0 0 0 55px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #808080;
+}
+/* Logo sitili sonu */
+
+/* Menıu sitli */
+
+.nav{
+    background-color: #000;
+    text-align: center;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    color:#808080 ;
+    padding: 10px;
+}
+
+.nav a:hover{
+    color: #fff;
+}
+
+.active{
+    background-color: #00a3e6;
+    color: #fff !important;
+}
+/* Sonu */
+
+
+/* Sevice */
+
+.frame-raund{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00a3e6;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.service{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.service img{
+    width: 150px;
+    height: 150px;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-container div{
+    margin: 0 10px;
+    text-align: center;
+}
+
+.flex-container h2{
+    color:#00a6e3;
+}
+
+
+.flex-container p{
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+
+
+/* Son */
+
+/* Content başlangıç */
+.content{
+    background-color: #f4f4f4;
+    padding-bottom: 20px;
+}
+
+.content-header{
+    color: #000 !important;
+}
+
+.content-header-subtitle{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 0;
+    
+}
+
+/* Sonu */
+
+/* Resim ile */
+
+
+.content-image{
+    background-color: #000;
+    color:#808080;
+    text-align: center;
+    padding: 0 20px;
+}
+.content-image h3{
+    color: #fff;
+}
+
+.content-image p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-image img{
+    width: 200px;
+    height: 151px;
+}
+
+.image-pading{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Sonu */
+
+/* Footer*/
+.footer{
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer a{
+    color: #808080;
+}
+/* Sonu */
+
