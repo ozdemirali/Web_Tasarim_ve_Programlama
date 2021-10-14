@@ -37,6 +37,17 @@ body{
 .triangle-down-gray{
     border-top-color: #f4f4f4;
 }
+
+.date-show{
+    color: white;
+    display: inline-block;
+    float: right;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
 /* Logo sitil bşalangıç */
 .logo{
     padding-bottom: 20px;
@@ -93,6 +104,8 @@ body{
     width: 200px;
     height: 200px;
     padding: 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 .service{
     background-color: #fff;
@@ -168,6 +181,11 @@ body{
 .content-image img{
     width: 200px;
     height: 151px;
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+.content-image img:hover{
+    opacity: 1;
 }
 
 .image-pading{
