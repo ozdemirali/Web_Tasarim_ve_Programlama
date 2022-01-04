@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+         .modal{
+             width: 400px;
+             background-color: #808080;
+             position: absolute;
+             top:15%;
+             right: 50%;
+             display: none;
+         }
+     </style>
+     <script src="script/modal.js"></script>
+</head>
+<body>
+    <div>
+        <a href="#" style="text-decoration: none;" onclick="openModal()">Modal</a>
+    </div>
+
+    <div class="modal">
+        <div><h2>Başlı</h2></div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At, facere maiores non repellendus, quam veritatis, natus neque dignissimos dolore vel inventore optio consectetur magni impedit. Reiciendis eum dicta natus tempore.
+            </p>
+        </div>
+        <div style="text-align: right;">
+            <a href="#" style="text-decoration: none;" onclick="closeModal()">Kapat</a>
+        </div>
+    </div>
+    
+
+</body>
+</html>
