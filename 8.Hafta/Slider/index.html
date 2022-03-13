@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        div{
+            height: 500px;
+            text-align: center;
+        }
+        div img{
+            height: 100%;
+            width: 100%;
+        }
+
+        div a{
+            background-color:#fff;
+            width: 40px;
+            height: 10px;
+            display: inline-block;
+        }
+        div a:hover{
+            background-color: gray
+        }
+
+        .container-button{
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            bottom: 0;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="position: relative;">
+        <img id="img" src="img/slider 1.jpeg">   
+        <div class="container-button">
+            <a href="#" onmouseover="change_image('img/slider 1.jpeg')"></a>
+            <a href="#" onmouseover="change_image('img/slider 2.jpeg')"></a>
+        </div>    
+    </div>
+</body>
+</html>
+<script src="script/slider.js"></script>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/hesalplama.js"></script>
+</head>
+<body>
+    <fieldset style="width: 50%;">
+        <legend>Alan Hesaplama Aracı</legend>
+        <div>
+            <em>*</em> Doldurulması zorunludur
+        </div>
+        <div>
+            <div class="flex-container">
+                <div style="width: 15%;">
+                    <label>*Şekil</label>
+                </div>
+                <div  style="width: 85%;">
+                    <div>
+                        <div> 
+                            <input onclick="showHide(1)" type="radio" id="dikdortgen" name="secim" value="1" checked>
+                            <label for="html">Dikdörtgen (veya Kare)</label>
+                        </div>
+                        <div> 
+                            <input onclick="showHide(1)" type="radio" id="ucgen" name="secim" value="2">
+                            <label for="html">Üçgen</label>
+                        </div>
+                        <div> 
+                            <input onclick="showHide(2)" type="radio" id="daire" name="secim" value="3">
+                            <label for="html">Daire</label>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+    
+            <div id="taban_yukseklik">
+                <div class="flex-container" style="margin-bottom: 20px;">
+                    <div style="width: 15%;">
+                        <label>*Taban(a)</label>
+                    </div>
+                    <div style="width: 85%;">
+                        <input type="text" id="taban" name="fname">
+                        <label for="html">cm Örn. 70,5</label>
+                    </div>
+                </div>
+                <div class="flex-container" style="margin-bottom: 20px;">
+                    <div style="width: 15%;">
+                        <label>*Yükseklik(h)</label>
+                    </div>
+                    <div style="width: 85%;">
+                        <input type="text" id="yukseklik" name="fname">
+                        <label for="html"> cm Örn. 50,45</label>
+                    </div>
+                </div>
+            </div>
+           <div id="daire_yaricap" style="display: none;">
+            <div class="flex-container" style="margin-bottom: 20px">
+                <div style="width: 15%;">
+                    <label>*Yarıçap(r)</label>
+                </div>
+                <div style="width: 85%;">
+                    <input type="text" id="yaricap" name="fname">
+                    <label for="html"> cm Örn. 30,25</label>
+                </div>
+            </div>
+           </div>
+
+           
+    
+    
+            <div class="flex-container" style="justify-content:space-around;align-items: center;">
+                <div>
+                    <a href="#" onclick="calculate()">Hesapla</a>
+                </div>
+                <div>
+                    <input type="text" id="sonuc"  name="fname">
+                </div>
+                <div>
+                    <a href="#" onclick="clearBoxes()">Temizle</a>
+                </div> 
+            </div>
+        </div>
+    </fieldset>
+    
+</body>
+</html>

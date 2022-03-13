@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Istek.Models.Mesaj>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Kullanıcıların İstekleri</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>Telefon</th>
+            <th>Eposta</th>
+            <th>İsteke</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>@item.Name</td>
+                
+                <td>@item.Surname</td>
+                <td>@item.Phone</td>
+                <td>@item.Mail</td>
+                <td>@item.Request</td>
+                <td>
+                  
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete",new { id=item.Id }) 
+                </td>
+            </tr>
+        }
+
+
+
+    </tbody>
+</table>

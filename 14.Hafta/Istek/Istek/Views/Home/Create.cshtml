@@ -1,0 +1,58 @@
+﻿@model Istek.Models.Mesaj
+
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Yeni Kayıt</h2>
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+    <div class="mb-3">
+        <label>Adı</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" , @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>Soyadı</label>
+        @Html.TextBoxFor(m => m.Surname, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>Telefon</label>
+        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" , @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>Email</label>
+        @Html.TextBoxFor(m => m.Mail, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>İstek</label>
+        @Html.TextAreaFor(m => m.Request, new { @class = "form-control", @required = "required" })
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+}
+
+@*<form action="/action_page.php">
+    <div class="mb-3 mt-3">
+        <label>Adı</label>
+        <input type="text" class="form-control" placeholder="Adınızı Giriniz" name="name">
+    </div>
+    <div class="mb-3">
+        <label>Soyadı</label>
+        <input type="text" class="form-control" placeholder="Soyadınızı Giriniz" name="surname">
+    </div>
+    <div class="mb-3">
+        <label>Telefon</label>
+        <input type="text" class="form-control" placeholder="Telefonunuzu Giriniz" name="phone">
+    </div>
+    <div class="mb-3">
+        <label>Email</label>
+        <input type="email" class="form-control" placeholder="Emailinizi Giriniz" name="email">
+    </div>
+    <div class="mb-3">
+        <label>İstek</label>
+        <textarea class="form-control" rows="5" id="comment" name="request" placeholder="İsteğinizi Giriniz"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>*@

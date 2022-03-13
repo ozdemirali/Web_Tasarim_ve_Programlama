@@ -1,0 +1,38 @@
+﻿@model Istek.Models.Mesaj
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "Home", FormMethod.Post))
+{
+    <div class="mb-3">
+        <label>Id</label>
+        @Html.TextBoxFor(m => m.Id, new { @class = "form-control", @required = "required" , disabled = "disabled" })
+    </div>
+    <div class="mb-3">
+        <label>Adı</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>Soyadı</label>
+        @Html.TextBoxFor(m => m.Surname, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>Telefon</label>
+        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>Email</label>
+        @Html.TextBoxFor(m => m.Mail, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="mb-3">
+        <label>İstek</label>
+        @Html.TextAreaFor(m => m.Request, new { @class = "form-control", @required = "required" })
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+}
+
