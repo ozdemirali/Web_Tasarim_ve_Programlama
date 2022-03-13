@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .flex-container{
     display: flex;
     align-items: center;
@@ -51,3 +52,58 @@ ul li a:hover{
     color: #fff;
 }
 
+=======
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.container-menu{
+    background-color: aqua;
+    display: flex;
+}
+.container-menu div{
+    width: 20%;
+    text-align: center;
+}
+
+.container-menu div a{
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid #000;
+}
+
+.container-menu div a:hover{
+  background-color: blueviolet;
+  color: #fff;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    height: 18px;
+    margin: 0;
+}
+
+ul li{
+    background-color: cadetblue;
+    float: left;
+    width:18%;
+    text-align: center;
+    border-right: 2px solid red;
+   
+}
+ul li:last-child{
+    border: 0;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: coral;
+    color: #fff;
+}
+
+>>>>>>> 7874f100013bcfcb0f849b4016e5d99552b5f48a

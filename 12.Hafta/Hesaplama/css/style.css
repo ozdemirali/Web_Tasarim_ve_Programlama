@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 legend{
     padding: 0.5rem;
     margin: 0 0.2rem;
@@ -20,4 +21,28 @@ a{
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
+=======
+legend{
+    padding: 0.5rem;
+    margin: 0 0.2rem;
+    background-color: #eee;
+    border-radius: 0.2rem;
+    font-size:16px;
+    font-weight: 500;
+    line-height: 1;
+    cursor: default;
+}
+
+.flex-container{
+    display: flex;
+}
+
+a{
+    background-color: #3b8cee;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+>>>>>>> 7874f100013bcfcb0f849b4016e5d99552b5f48a
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
     display: flex;
     align-items: center;
@@ -64,3 +65,71 @@
 .item span{
     color: #f2474d;
 }
+=======
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    flex-grow: 2;
+    text-align: center;
+}
+
+.nav{
+    flex-grow: 8;
+    text-align: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 20px;
+}
+
+.banner{
+    height: 570px;
+    border-bottom: 2px solid #f2474d;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-container{
+    display: flex;
+}
+
+.product-container-item{
+   width: 50%;
+    /* flex-grow: 1; */
+    margin: 10px;
+}
+
+
+.item{
+    margin-bottom: 10px;
+    height: 100px;
+    overflow: hidden;
+    /* overflow: auto; */
+}
+
+.item::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.item img{
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+}
+
+.item h2,p {
+    margin: 0;
+}
+.item span{
+    color: #f2474d;
+}
+>>>>>>> 7874f100013bcfcb0f849b4016e5d99552b5f48a

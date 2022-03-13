@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
     background-color: #808080;
 }
@@ -24,3 +25,31 @@ input[type="submit"]{
     font-size: 10px;
     opacity: 1; /* Firefox */
   }
+=======
+.container{
+    background-color: #808080;
+}
+
+.header{
+    text-align: center;
+    word-spacing: 10px;
+}
+
+input[type="text"],textarea{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="submit"]{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#808080;
+    font-size: 10px;
+    opacity: 1; /* Firefox */
+  }
+>>>>>>> 7874f100013bcfcb0f849b4016e5d99552b5f48a

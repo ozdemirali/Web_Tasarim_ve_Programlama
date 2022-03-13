@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nav{
     display: flex;
     margin: 35px;
@@ -134,4 +135,142 @@
     position: relative;
     float: left;
     padding-right: 80px;
+=======
+.nav{
+    display: flex;
+    margin: 35px;
+    margin-bottom: 20px;
+}
+.nav img{
+    padding: 0 15%;
+}
+.nav a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 30px;
+}
+.nav nav{
+    padding-left: 9%;
+}
+.content{
+    background-image: url("../img/hero.jpg");
+    height: 500px;
+    border-bottom: 3px solid #ff4000;
+    color: #ffffff;
+    text-align: center;
+    /* position: relative; */
+    /* height: 770px; */
+}
+.content h1{
+    padding-top: 17%;
+}
+.img{
+    padding-left: 43%;
+}
+.content-1{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.content-1 div{
+    /* padding: 0 45px; */
+    /* padding-right: 55px; */
+    width: 501px;
+    display: inline;
+}
+.content-1 div > h3{
+    padding-right: 100px;
+    display: inline-flex;
+    /* float: left; */
+    font-size: medium;
+    margin: 45px 0;
+}
+.content-1 div > p{
+    margin: 45px 0;
+    display: inline-flex;
+    float: right;
+}
+.content-2{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+.content-2 h2{
+    padding-right: 75px;
+    margin-bottom: 55px;
+}
+.content-2 div{
+    width: 228px;
+    padding-right: 55px;
+    /* display: flex; */
+}
+.content-2 div > img:first-child{
+    width: 175px;
+    height: 150px;
+}
+.content-2 div > p{
+    /* float: left; */
+    display: block;
+    width: 175px;
+    height: 19px;
+}
+.content-2 div > p{
+    /* float: right; */
+    display: flex;
+}
+.content-2 div > h4{
+    font-weight: normal;
+    position: relative;
+    bottom: 55px;
+    float: right;
+}
+/* .content-2-img{
+    width: 872px;
+    height: 150px;
+    display: inline-flex;
+    float: left;
+}
+.content-2-img img{
+    padding: 0 61px 0 0;
+}
+.content-2 div{
+    width: 872px;
+    display: inline-flex;
+    /* border-right: 40px solid #ffffff; */
+    /* margin-right: 40px; */
+    /* padding-right: 90px; 
+} */
+.content-3{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 43%;
+}
+.content-3 h2{
+    margin-bottom: 55px;
+}
+.content-3 img{
+    width: 278px;
+    display: inline-flex;
+    float: left;
+}
+.footer{
+    background-color: #595959;
+    height: 215px;
+    color: #ffffff;
+}
+.footer div{
+    float: left;
+    padding-right: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 95px;
+    width: 872px;
+    top: 2250px;
+    position: absolute;
+}
+.footer div > p{
+    position: relative;
+    float: left;
+    padding-right: 80px;
+>>>>>>> 7874f100013bcfcb0f849b4016e5d99552b5f48a
 }
